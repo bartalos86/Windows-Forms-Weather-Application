@@ -1,0 +1,7 @@
+﻿{
+  "days": [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ],
+  "tempMin": "Minimum temperature: ",
+  "tempMax": "Maximum temperature: ",
+  "wind": "Wind speed: ",
+   "humidity":  "Humidity: "
+}

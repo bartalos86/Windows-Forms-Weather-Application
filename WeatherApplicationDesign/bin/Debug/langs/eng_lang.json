@@ -1,0 +1,16 @@
+﻿{
+  "language": "en",
+  "days": [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ],
+  "tempMin": "Minimum temperature: ",
+  "tempMax": "Maximum temperature: ",
+  "wind": "Wind speed: ",
+  "windr": "Wind: ",
+  "humidity": "Humidity: ",
+  "weatherButton": "Get weather!",
+  "connectionFailed": "The connection failed to the server!",
+  "cityNotFound": "City not found!",
+  "langSet": "You succesfully set new language! Please restart to take effect!",
+  "customFileButton": "select file",
+  "homeLocationLabel": "Home:",
+  "unitsLabel": "Measurement:"
+}

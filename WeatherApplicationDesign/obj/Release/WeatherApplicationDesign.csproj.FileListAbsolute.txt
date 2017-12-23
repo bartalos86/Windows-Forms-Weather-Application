@@ -1,0 +1,10 @@
+C:\Users\barta\documents\visual studio 2017\Projects\WeatherApplicationDesign\WeatherApplicationDesign\bin\Release\WeatherApplicationDesign.exe.config
+C:\Users\barta\documents\visual studio 2017\Projects\WeatherApplicationDesign\WeatherApplicationDesign\bin\Release\WeatherApplicationDesign.exe
+C:\Users\barta\documents\visual studio 2017\Projects\WeatherApplicationDesign\WeatherApplicationDesign\bin\Release\WeatherApplicationDesign.pdb
+C:\Users\barta\documents\visual studio 2017\Projects\WeatherApplicationDesign\WeatherApplicationDesign\bin\Release\Newtonsoft.Json.dll
+C:\Users\barta\documents\visual studio 2017\Projects\WeatherApplicationDesign\WeatherApplicationDesign\bin\Release\Newtonsoft.Json.xml
+C:\Users\barta\documents\visual studio 2017\Projects\WeatherApplicationDesign\WeatherApplicationDesign\obj\Release\WeatherApplicationDesign.Form1.resources
+C:\Users\barta\documents\visual studio 2017\Projects\WeatherApplicationDesign\WeatherApplicationDesign\obj\Release\WeatherApplicationDesign.Properties.Resources.resources
+C:\Users\barta\documents\visual studio 2017\Projects\WeatherApplicationDesign\WeatherApplicationDesign\obj\Release\WeatherApplicationDesign.csproj.GenerateResource.Cache
+C:\Users\barta\documents\visual studio 2017\Projects\WeatherApplicationDesign\WeatherApplicationDesign\obj\Release\WeatherApplicationDesign.exe
+C:\Users\barta\documents\visual studio 2017\Projects\WeatherApplicationDesign\WeatherApplicationDesign\obj\Release\WeatherApplicationDesign.pdb
