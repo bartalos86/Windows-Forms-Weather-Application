@@ -30,11 +30,11 @@ namespace WeatherApplicationDesign
             Form1 myEvent = new Form1();
             myEvent.eventstart += DataStreamWithEvent;
 
-          //  city = Properties.Resources.varos;
+            //  city = Properties.Resources.varos;
             InitializeComponent();
         }
 
-        
+
         private void DataStreamWithEvent(object sender, SimpleEvent e)
         {
             MessageBox.Show("Event started");
