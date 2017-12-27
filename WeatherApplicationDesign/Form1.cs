@@ -17,7 +17,7 @@ namespace WeatherApplicationDesign
         int settingsr;
         string metricorNot;
         Settings jsonSettings;
-        public event EventHandler<SimpleEvent> eventstart;
+        
         #region Deklaration
         dynamic nyelv;
         int tTempMax = 0;
