@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
+using System.Drawing;
 using System.IO;
 using System.Net;
 using System.Threading;
@@ -157,6 +158,29 @@ namespace WeatherApplicationDesign
             if (napi != null)
             {
 
+                string kepMai = napi.list[1].weather[0].main;
+                this.BackgroundImageLayout = ImageLayout.Stretch;
+                MessageBox.Show(kepMai);
+                switch (kepMai)
+                {
+                    case "Clear":
+                        if(this.BackgroundImage != new Bitmap("Images\\Sun-Back.jpg"))
+                        this.BackgroundImage = new Bitmap("Images\\Sun-Back.jpg");
+                        break;
+                    case "Rain":
+                        if (this.BackgroundImage != new Bitmap("Images\\Rain-Back.jpg"))
+                            this.BackgroundImage = new Bitmap("Images\\Rain-Back.jpg");
+                        break;
+                    case "Clouds":
+                        if (this.BackgroundImage != new Bitmap("Images\\Clouds-Back.jpeg"))
+                            this.BackgroundImage = new Bitmap("Images\\Clouds-Back.jpeg");  
+                        break;
+                    case "Snow":
+                        if (this.BackgroundImage != new Bitmap("Images\\Snow-Back.jpg"))
+                            this.BackgroundImage = new Bitmap("Images\\Snow-Back.jpg");
+                        break;
+                }
+
                 int temp = napi.list[0].temp.day;
                 label1.Text = string.Format($"{temp}");
                 windLabel.Text = string.Format($"{lang.windr}{napi.list[0].speed} km/h");
@@ -191,14 +215,20 @@ namespace WeatherApplicationDesign
                         case "Clear":
                             weatherPics[i].SizeMode = PictureBoxSizeMode.StretchImage;
                             weatherPics[i].ImageLocation = "Images\\sun.png";
+                          
                             break;
                         case "Rain":
                             weatherPics[i].SizeMode = PictureBoxSizeMode.StretchImage;
                             weatherPics[i].ImageLocation = "Images\\rain.png";
+                           
                             break;
                         case "Clouds":
                             weatherPics[i].SizeMode = PictureBoxSizeMode.StretchImage;
                             weatherPics[i].ImageLocation = "Images\\cloud.png";
+                            break;
+                        case "Snow":
+                            weatherPics[i].SizeMode = PictureBoxSizeMode.StretchImage;
+                            weatherPics[i].ImageLocation = "Images\\snow.png";
                             break;
                     }
                 }
@@ -328,7 +358,6 @@ namespace WeatherApplicationDesign
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
 
             StreamReader settings = new StreamReader("settings.json");
             StreamReader stread = new StreamReader("current_lang.txt");
